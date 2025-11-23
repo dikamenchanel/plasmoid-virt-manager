@@ -14,18 +14,24 @@
 
 ## 🚀 Features
 
-- 📌 **Tray indicator** showing number of running virtual machines  
-- ⚡ **Double-click** to start VM **and open console**  
-- 🖱 **Single-click** opens menu with actions  
+- 📌 **Tray indicator** showing number of running virtual machines 
+- 🖱 **Single-click** opens menu with actions to start VM **and open console** 
 - 🔄 Start / Stop / Restart / Open Console  
 - 🔍 **Auto-refresh** of machine states (libvirt)  
 - 🧩 Pure **Plasma 6 API**, no external JS helpers  
 - 🖥 Works with **virt-manager**, QEMU/KVM, libvirt  
 - 💡 Clean and minimal UI
 
----
+🛠 Requirements
 
-## 📸 Preview
+Plasma 6
 
-> *(Ты можешь позже добавить сюда GIF, например: `preview.gif`)*
+libvirt
 
+virt-manager
+
+QEMU/KVM
+
+User must be in the libvirt / kvm group
+
+Add user to groups:
