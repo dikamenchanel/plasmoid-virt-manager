@@ -1,0 +1,34 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "dikamenchannel@gmail.com",
+                "Name[en_GB]": "Kozhemiakin Dmytro"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Tray widget to launch and monitor VMs",
+        "Description[en_GB]": "Tray widget to launch and monitor VMs",
+        "Description[ru]": "Управления виртуальными машинами из трея",
+        "Description[uk]": "Керування віртуальними машинами через трей",
+        "EnabledByDefault": true,
+        "FormFactors": [
+            "desktop"
+        ],
+        "Icon": "virt-manager-symbol",
+        "Id": "org.kde.plasma.virtmanager_tray",
+        "License": "MIT",
+        "Name": "Virt Manager",
+        "Name[en_GB]": "Virt Manager",
+        "Name[ru]": "Виртуальные Машины",
+        "Name[uk]": "Віртуальні Машини",
+        "Website": "https://github.com/dikamenchanel/plasmoid-virt-manager.git"
+    },
+    "Keywords": "Machine;Virtual;Manager",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-NotificationAreaCategory": "System",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.virtmanager_tray"
+    ]
+}
