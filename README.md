@@ -1,2 +1,31 @@
-# plasmoid-virt-manager
-VirtManager Tray — Plasma 6 widget for controlling virtual machines  VirtManager Tray is a lightweight Plasma 6 applet that allows you to monitor and control your libvirt virtual machines directly from the system tray. It provides fast access to VM state, console, and basic management actions — without opening virt-manager.
+<h1 align="center">VirtManager Tray — Plasma 6 Applet</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Plasma-6.0+-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Libvirt-Required-green?style=flat-square">
+  <img src="https://img.shields.io/badge/License-GPL--2.0+-yellow?style=flat-square">
+</p>
+
+<p align="center">
+  Lightweight Plasma 6 system tray widget for managing and monitoring libvirt virtual machines.
+</p>
+
+---
+
+## 🚀 Features
+
+- 📌 **Tray indicator** showing number of running virtual machines  
+- ⚡ **Double-click** to start VM **and open console**  
+- 🖱 **Single-click** opens menu with actions  
+- 🔄 Start / Stop / Restart / Open Console  
+- 🔍 **Auto-refresh** of machine states (libvirt)  
+- 🧩 Pure **Plasma 6 API**, no external JS helpers  
+- 🖥 Works with **virt-manager**, QEMU/KVM, libvirt  
+- 💡 Clean and minimal UI
+
+---
+
+## 📸 Preview
+
+> *(Ты можешь позже добавить сюда GIF, например: `preview.gif`)*
+
